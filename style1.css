@@ -205,7 +205,7 @@ ul li a:hover{
     width: 1920px;
     max-width: 1920px;
     height: 1080px;
-    position: fixed;
+    position: absolute;
     left: 100px;
     top: 38px;
 }
