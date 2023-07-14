@@ -196,3 +196,16 @@ ul li a:hover{
         --row-height: 200px;
     }
 }
+
+.fullsize{
+    border: 11px solid aquamarine;;
+    z-index: 999;
+    cursor: zoom-out;
+    display: block;
+    width: 400px;
+    max-width: 400px;
+    height: 550px;
+    position: fixed;
+    left: 100px;
+    top: 38px;
+}
