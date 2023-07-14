@@ -202,9 +202,9 @@ ul li a:hover{
     z-index: 999;
     cursor: zoom-out;
     display: block;
-    width: 400px;
-    max-width: 400px;
-    height: 550px;
+    width: 1920px;
+    max-width: 1920px;
+    height: 1080px;
     position: fixed;
     left: 100px;
     top: 38px;
