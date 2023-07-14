@@ -177,6 +177,7 @@ ul li a:hover{
 .image-grid > img {
     width: 100%;
     height: 100%;
+    border-top-left-radius: 5px;
     object-fit: cover;
 }
 
