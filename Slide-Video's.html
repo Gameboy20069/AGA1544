@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-dev</title>
+    <link rel="stylesheet" href="style5.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">My Home</h2>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Foto's.html">Foto's</a></li>
+                    <li><a href="Video's.html">Video's</a></li>
+                    <li><a href="Slide-Foto's.html">Slideshow</a></li>
+                    <li><a href="Slide-Video's.html">Slide Video's</a></li>
+                </ul>
+            </div>
+
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="Typ hier">
+                <a href="#"> <button class="btn">search</button></a>
+            </div>
+
+<div class="container">
+    <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><video src="Video's/1.mp4" controls></video></div>
+          <div class="swiper-slide"><video src="Video's/2.mp4" controls></video></div>
+          <div class="swiper-slide"><video src="Video's/3.mp4" controls></video></div>
+          <div class="swiper-slide"><video src="Video's/4.mp4" controls></video></div>
+          <div class="swiper-slide"><video src="Video's/6.mp4" controls></video></div>
+          <div class="swiper-slide"><video src="Video's/7.mp4 "controls></video></div>
+          <div class="swiper-slide"><video src="Video's/8.mp4" controls></video></div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+<script>
+
+const swiper = new Swiper('.swiper', {
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: true,
+    },
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});
+
+</script>
+</body>
+</html>

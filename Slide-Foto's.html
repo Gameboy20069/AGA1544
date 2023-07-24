@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-dev</title>
+    <link rel="stylesheet" href="style4.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">My Home</h2>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Foto's.html">Foto's</a></li>
+                    <li><a href="Video's.html">Video's</a></li>
+                    <li><a href="Slide-Foto's.html">Slideshow</a></li>
+                    <li><a href="Slide-Video's.html">Slide Video's</a></li>
+                </ul>
+            </div>
+
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="Typ hier">
+                <a href="#"> <button class="btn">search</button></a>
+            </div>
+
+<div class="container">
+    <div class="swiper">
+        <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="Foto's/0.jpg"></div>
+          <div class="swiper-slide"><img src="Foto's/1.png"></div>
+          <div class="swiper-slide"><img src="Foto's/2.png"></div>
+          <div class="swiper-slide"><img src="Foto's/3.png"></div>
+          <div class="swiper-slide"><img src="Foto's/4.png"></div>
+          <div class="swiper-slide"><img src="Foto's/6.png"></div>
+          <div class="swiper-slide"><img src="Foto's/7.png"></div>
+          <div class="swiper-slide"><img src="Foto's/8.png"></div>
+          <div class="swiper-slide"><img src="Foto's/9.png"></div>
+          <div class="swiper-slide"><img src="Foto's/10.png" ></div>
+          <div class="swiper-slide"><img src="Foto's/11.png" ></div>
+          <div class="swiper-slide"><img src="Foto's/12.png" ></div>
+          <div class="swiper-slide"><img src="Foto's/13.png" ></div>
+          <div class="swiper-slide"><img src="Foto's/14.png" ></div>
+          <div class="swiper-slide"><img src="Foto's/16.png" ></div>
+          <div class="swiper-slide"><img src="Foto's/17.png" ></div>
+          <div class="swiper-slide"><img src="Foto's/18.png" ></div>
+          <div class="swiper-slide"><img src="Foto's/19.png" ></div>
+          <div class="swiper-slide"><img src="Foto's/20.png" ></div>
+          <div class="swiper-slide"><img src="Foto's/21.png" ></div>
+          <div class="swiper-slide"><img src="Foto's/22.png" ></div>
+          <div class="swiper-slide"><img src="Foto's/23.png" ></div>
+          <div class="swiper-slide"><img src="Foto's/24.png" ></div>
+          <div class="swiper-slide"><img src="Foto's/26.jpg" ></div>
+          <div class="swiper-slide"><img src="Foto's/27.png" ></div>
+          <div class="swiper-slide"><img src="Foto's/28.png" ></div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+<script>
+
+const swiper = new Swiper('.swiper', {
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: true,
+    },
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});
+
+</script>
+</body>
+</html>
