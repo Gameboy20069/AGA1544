@@ -4,9 +4,18 @@
 
 }
 
+.transition-fade {
+  transition: 0.4s;
+  opacity: 1;
+}
+
+html.is-animating .transition-fade {
+  opacity: 0;
+}
+
 .main{
   width: 100%;
-  background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg);
+  background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(A4.jpg);
   background-position: center;
   background-size: cover;
   height: 109vh;
@@ -112,7 +121,7 @@ ul li a:hover{
   height: auto;
   margin: auto;
   color: aliceblue;
-  position: relative;
+  position: center;
 }
 
 .content .par{
@@ -124,11 +133,11 @@ ul li a:hover{
 }
 
 .content h1{
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 50px;
-  padding-left: 20px;
-  margin-top: 9%;
-  letter-spacing: 2px;
+  font-family: 'Times New Roman';
+  font-size: 20px;
+  padding-left: 150px;
+  margin-top: 10%;
+  letter-spacing: 5px;
 }
 
 .content .cn{
@@ -157,7 +166,7 @@ ul li a:hover{
 
 .content span{
   color: aquamarine;
-  font-size: 60px;
+  font-size: 25px;
 }
 
 
@@ -171,13 +180,3 @@ body {
   float: left;
   height: 70px;
 }
-
-
-.transition-fade {
-  transition: 0.4s;
-  opacity: 1;
-}
-
-html.is-animating .transition-fade {
-  opacity: 0;
-}/*# sourceMappingURL=main.css.map */
